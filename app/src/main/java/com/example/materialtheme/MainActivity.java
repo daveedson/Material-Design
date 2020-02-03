@@ -20,6 +20,11 @@ public class MainActivity extends AppCompatActivity {
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+
+        //backButton on action bar
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
     }
 
 
@@ -37,9 +42,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
-        int id = item.getItemId();
 
-        switch (id){
+        switch (item.getItemId()){
 
             case R.id.AboutUs_myMenu:
                 Toast.makeText(this, "About Us Clicked", Toast.LENGTH_SHORT).show();
@@ -50,6 +54,17 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case  R.id.Users_myMenu:
                 Toast.makeText(this, "Users clicked", Toast.LENGTH_SHORT).show();
+
+            case R.id.search_myMenu:
+                Toast.makeText(this, "Search Icon is clicked", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.cart_myMenu:
+                Toast.makeText(this, "Cart Icon is clicked", Toast.LENGTH_SHORT).show();
+
+                break;
+            case android.R.id.home:
+                finish();
+                break;
         }
 
 
