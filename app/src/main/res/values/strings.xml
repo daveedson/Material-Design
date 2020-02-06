@@ -3,4 +3,20 @@
     <string name="settings">Settings</string>
     <string name="users">Users</string>
     <string name="about_us">About Us</string>
+    <string name="david_tochukwu_onoh">David Tochukwu Onoh</string>
+    <string name="daveeddrumz_gmail_com">daveeddrumz@gmail.com</string>
+    <string name="inbox">Inbox</string>
+    <string name="starred">Starred</string>
+    <string name="sent">Sent</string>
+    <string name="draft">Draft</string>
+    <string name="advace_options">Advace Options</string>
+    <string name="advance_option">Advance option</string>
+    <string name="all_emails">All Emails</string>
+    <string name="trash">Trash</string>
+    <string name="spam">Spam</string>
+    
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
 </resources>
